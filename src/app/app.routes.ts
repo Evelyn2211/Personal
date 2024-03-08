@@ -5,7 +5,7 @@ import { LanguageCardsComponent } from './componets/language-cards/language-card
 import { ContactComponent } from './componets/contact/contact.component';
 
 export const routes: Routes = [
-    {path:'head', component :HeaderComponent} ,
+    {path:'', component :HeaderComponent} ,
     {path:'home', component :HomeComponent},
     {path:'skills', component :LanguageCardsComponent},
     {path:'cel', component : ContactComponent}
