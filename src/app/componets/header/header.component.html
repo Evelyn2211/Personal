@@ -1,17 +1,16 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark-transparent">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Titulo</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" routerLink="/cel" >Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </div>
-      </div>
-    </div>
+<header class="bg-light p-3">
+  <nav class="d-flex justify-content-end align-items-center">
+    <button (click)="navigateTo('/')"
+            [class.active]="currentRoute === '/'"
+            class="btn text-dark">About</button>
+    <button (click)="navigateTo('/projects')"
+            [class.active]="currentRoute === '/projects'"
+            class="btn text-dark">My Work</button>
+    <button (click)="navigateTo('/studies')"
+            [class.active]="currentRoute === '/studies'"
+            class="btn text-dark">Estudios</button>
+    <button (click)="navigateTo('/contact')"
+            [class.active]="currentRoute === '/contact'"
+            class="btn btn-outline-dark">Contact</button>
   </nav>
-  
+</header>
