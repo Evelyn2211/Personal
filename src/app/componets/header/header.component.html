@@ -1,16 +1,8 @@
-<header class="p-3">
-  <nav class="d-flex justify-content-end align-items-center">
-    <button (click)="navigateTo('/')"
-            [class.active]="currentRoute === '/'"
-            class="btn text-dark">About</button>
-    <button (click)="navigateTo('/projects')"
-            [class.active]="currentRoute === '/projects'"
-            class="btn text-dark">My Work</button>
-    <button (click)="navigateTo('/studies')"
-            [class.active]="currentRoute === '/studies'"
-            class="btn text-dark">Estudios</button>
-    <button (click)="navigateTo('/contact')"
-            [class.active]="currentRoute === '/contact'"
-            class="btn btn-outline-dark">Contact</button>
-  </nav>
-</header>
+<nav class="navbar">
+  <ul>
+    <li><a routerLink="/">About</a></li>
+    <li><a routerLink="/my-work">My work</a></li>
+    <li><a routerLink="/studies">Estudios</a></li>
+    <li><a routerLink="/contact" class="btn btn-contact col-8">Contact</a></li>
+  </ul>
+</nav>

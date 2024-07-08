@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { LanguageCardsComponent } from "../language-cards/language-cards.component";
 import { CommonModule } from '@angular/common';
+import { HeaderComponent } from "../header/header.component";
 
 @Component({
     selector: 'app-home',
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [LanguageCardsComponent , CommonModule]
+    imports: [LanguageCardsComponent, CommonModule, HeaderComponent]
 })
 export class HomeComponent implements OnInit{
     languages = [

@@ -1,0 +1,60 @@
+.main-container {
+    background-color: #6d9773; /* Fondo rosita */
+    padding: 10px;
+    margin-top: 20px; /* Ajusta el margen superior para separarlo del header */
+    border-radius: 30px;
+  }
+.see-my-work-btn {
+  background-color: #bb8a52;
+  border-color: #bb8a52;
+  color: #ececec;
+}
+.carousel {
+  background-color: #0c3b2e; 
+}
+.see-my-work-btn:hover {
+  background-color: #633f17; /* Cambia el color de fondo al pasar el ratón */
+  border-color: #633f17; /* Cambia el color del borde al pasar el ratón */
+  color: #ffffff; /* Cambia el color de texto al pasar el ratón */
+}
+
+
+  .content {
+    padding: 20px;
+    border-radius: 30;
+  }
+  
+  .texto {
+    color: #e9ecef;
+    /* Puedes agregar estilos adicionales aquí si es necesario */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Ajusta el margen superior para separarlo del contenido */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+.proyectos{
+  max-width: 90%;
+  
+}
+.principal{
+  margin-top: 20px;
+  margin-left: 200px;
+}
+.estudiosimg{
+  width: auto;
+  height: auto;
+}
+.image-container img.principal{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

@@ -1,41 +1,16 @@
-.main-container {
-    background-color: #f78f8f; /* Fondo rosita */
-    padding: 10px;
-    margin-top: 20px; /* Ajusta el margen superior para separarlo del header */
-    border-radius: 30px;
-  }
-  .see-my-work-btn {
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
-    color: #6c757d;
-  }
-  
-  .see-my-work-btn:hover {
-    background-color: #e9ecef; /* Cambia el color de fondo al pasar el ratón */
-    border-color: #e9ecef; /* Cambia el color del borde al pasar el ratón */
-    color: #6c757d; /* Cambia el color de texto al pasar el ratón */
-  }
-  
+.skill-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px; /* Tamaño del círculo */
+  height: 50px;
+  border-radius: 50%; /* Forma de círculo */
+  background-color: #f0f0f0; /* Color de fondo del círculo */
+  overflow: hidden;
+  margin-right: 10px; /* Espacio entre los círculos */
+}
 
-  .content {
-    padding: 20px;
-    border-radius: 30;
-  }
-  
-  .texto {
-    /* Puedes agregar estilos adicionales aquí si es necesario */
-  }
-  
-  .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px; /* Ajusta el margen superior para separarlo del contenido */
-  }
-  
-  .image-container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
+.skill-circle img {
+  max-width: 80%; /* Ajustar el tamaño máximo del logo dentro del círculo */
+  height: auto;
+}
